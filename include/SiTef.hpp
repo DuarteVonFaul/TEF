@@ -12,8 +12,8 @@ protected:
 
 public:
 
-	SiTef(std::string str32 = "CliSiTef32I.dll",
-		std::string str64 = "CliSiTef64I.dll");
+	SiTef(std::string str32 = "..\\ext\\CliSiTef32I.dll",
+		std::string str64 = "..\\ext\\CliSiTef64I.dll");
 
 	
 	HINSTANCE* getDLL() {
